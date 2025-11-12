@@ -14,7 +14,7 @@ public class Main {
         String json = gson.toJson(persona);
         System.out.println("Objeto convertido a JSON:");
         System.out.println(json);
-
+        System.out.println("ESTO ES NUEVO, LO AABO DE AGREGAR. ARASAM SAM SAM SAM CURI CURI");
         // Convertimos el JSON de vuelta a objeto
         Persona persona2 = gson.fromJson(json, Persona.class);
         System.out.println("\nJSON convertido de nuevo a objeto:");
